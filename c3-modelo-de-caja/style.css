@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* selector | propiedad | valor */
+
+h2 {
+  font-size: 40px;
+  color: rebeccapurple;
+  font-family: monospace;
+}
+
+p {
+  background-color:cadetblue;
+}
+
+/* class => rotulo */
+
+.parrafo-diferente {
+  background-color: chartreuse;
+}

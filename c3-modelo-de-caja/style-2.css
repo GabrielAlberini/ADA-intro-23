@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .parrafo-uno {
+  background-color: aquamarine;
+}
+
+.parrafo-dos {
+  background-color: blueviolet;
+}
+
+h1 {
+  background-color: brown;
+  font-size: 20px;
+  width: 300px;
+} */
+
+p {
+  background-color: brown;
+  border: 2px solid black;
+
+  /* Agregando padding de forma particular */
+  /* padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px; */
+
+  /* Agregando padding de forma general. A los 4 lados */
+  /* padding: 100px; */
+
+  /* Agregando padding en los ejes. Eje y y eje x */
+  /* padding: 50px 100px; */
+
+  /* Agregando margin de forma particular */
+  margin-top: 30px;
+  margin-left: 30px;
+  
+  /* Agregando margin de forma general */
+  margin: 100px;
+
+  /* Agregando margin en los ejes. Eje y y eje x */
+  margin: 50px auto;
+  
+  width: 100px;
+
+  text-align: center;
+  padding: 40px 0px;
+}
