@@ -1,0 +1,58 @@
+/* CSS = Cascading Style Sheet */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Major Mono Display', monospace; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #252f4d;
+}
+
+body {
+  background-color: #0cd2c8;
+}
+
+.container {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  margin: 140px auto;
+  border-radius: 10px;
+  box-shadow: 6px 9px 22px -12px rgba(0,0,0,0.7);
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 12px;
+}
+
+div {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #eef2ff;
+  border-radius: 5px;
+  border-left-width: 6px;
+  border-left-color: red;
+}
+
+.fucsia {
+  border-left-color: #f85e99;
+}
+
+.lila {
+  border-left-color: #d788ff;
+}
+
+.naranja {
+  border-left-color: #ffa378;
+}

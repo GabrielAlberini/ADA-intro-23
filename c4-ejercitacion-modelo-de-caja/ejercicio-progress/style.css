@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: yellowgreen;
+  width: 520px;
+  margin: 140px auto;
+  padding: 20px;
+}
+
+.container {
+  width: 460px;
+  padding: 10px;
+  background-color:rgb(211, 112, 94);
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.container div {
+  background-color: rgb(160, 95, 105);
+  padding: 10px;
+  border-radius: 100px;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.p-10 {
+  width: 10%;
+}
+
+.p-25 {
+  width: 25%;
+}
+
+.p-50 {
+  width: 50%;
+}
+
+.p-75 {
+  width: 75%;
+}
+
+.p-90 {
+  width: 67%;
+}
