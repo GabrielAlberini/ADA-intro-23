@@ -9,8 +9,7 @@
   </head>
   <body>
     <article class="container">
-      <div class="cont-img">
-        <!-- src = source -->
+      <!-- <div class="cont-img">
         <img src="check.jpg" alt="imagen de check" />
       </div>
       <h1>Protect your account</h1>
@@ -26,7 +25,28 @@
       </div>
       <div>
         <button class="confirm">Confirm</button>
-      </div>
+      </div> -->
     </article>
+
+    <script>
+      const $container = document.querySelector(".container");
+      const apiUrl = "https://app.simpocity.com/api/users/getallusers";
+      const TOKEN =
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55IjoiU2ltcG9jaXR5IiwiZW50ZXJwcmljZWlkIjoiNTI3IiwidXNlcmlkIjoiNzk3MyIsImd1aWQiOiI4OTkxZjkwMS0zZjI2LTQ0ODEtOTZiMi01MTlmOTQwN2QwYjciLCJpc3MiOiJzaW1wb2NpdHkuY29tIiwiZXhwIjoxNjc3NzY4OTI1LCJqdGkiOiI4OTkxZjkwMS0zZjI2LTQ0ODEtOTZiMi01MTlmOTQwN2QwYjcifQ.DcrbAfLbw21I0wjsp_5iS-p9nUNbz1Pvi--qbi8ES3M";
+      const apiHeaders = {
+        Authorization: `${TOKEN}`,
+      };
+      fetch(apiUrl, {
+        method: "GET",
+        headers: apiHeaders,
+      })
+        .then((response) => response.json())
+        .then((data) =>
+          data.forEach((element) => {
+            $container.innerHTML += `<h2>${element.SecUserFullName}</h2>`;
+          })
+        )
+        .catch((error) => console.error(error));
+    </script>
   </body>
 </html>
