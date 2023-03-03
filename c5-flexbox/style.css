@@ -1,0 +1,115 @@
+/*  ctrl + }  */
+
+/* 
+
+w => la W es ancha por ende modificamos el width
+
+h => la h es alta por ende modificamos la altura
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:violet;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contenedor {
+  height: 600px;
+  background-color: yellowgreen;
+  padding: 20px;
+  /* display:flex; hace que sus elementos hijos se puedan reubicar */
+  display: flex;
+  /* justify content alinea mi contenido en el eje X */
+  justify-content: space-around;
+  /* align items alinea mi contenido en el eje Y */
+  align-items: center;
+}
+
+.div-1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.div-2 {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.caja-de-card {
+  background-color: tomato;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.caja-de-card h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja-de-card button {
+  /* padding recibe dos valores:
+      - el primero en eje Y
+      - el segundo en eje X
+  */
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 100px;
+}
+
+
+.contenedor-chucky {
+  width: 900px;
+  display: flex;
+  /* margin recibe dos valores:
+      - el primero en eje Y
+      - el segundo en eje X
+  */
+  margin: 50px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.caja-izquierda {
+
+  padding: 20px;
+}
+
+.caja-derecha {
+
+  padding: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.caja-izquierda img {
+  width: 500px;
+}
+
+.caja-derecha h1 {
+  margin-bottom: 30px;
+}
+
+.caja-derecha p {
+  margin-bottom: 30px;
+}
