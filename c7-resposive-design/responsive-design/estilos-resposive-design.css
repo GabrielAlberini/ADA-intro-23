@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: yellowgreen;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+li {
+  padding: 10px;
+  background-color: violet;
+}
+
+/* Media querie / punto de quiebre */
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+
+  ul{
+    flex-direction: column;
+  }
+}

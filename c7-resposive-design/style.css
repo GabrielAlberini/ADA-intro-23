@@ -1,0 +1,72 @@
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* selector | propiedad | valor */
+
+body {
+  background-color: #e2d3cb;
+}
+
+article {
+  display: flex;
+  width: 550px;
+  margin: 100px auto;
+}
+
+.cont-img {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* arriba a la izquiera y los próximos suceden en el sentido del reloj */
+  border-radius: 15px 0 0 15px;
+}
+
+.cont-contenido {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 50%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.categoria {
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.parrafo-de-contenido {
+  color: grey;
+}
+
+.precio-normal {
+  color: #3c8268;
+  font-weight: bold;
+}
+
+.precio-tachado {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: grey;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 50px;
+  border-radius: 5px;
+  background-color: #3c8268;
+  color: white;
+}
+
