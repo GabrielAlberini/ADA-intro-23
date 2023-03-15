@@ -29,6 +29,14 @@ li {
 
 /* Media querie / punto de quiebre */
 
+/* Punto de quiebre para tablet */
+@media (max-width: 880px) {
+  header {
+    background-color: steelblue;
+  }
+}
+
+/* Punto de quiebre para celular */
 @media (max-width: 480px) {
   header {
     flex-direction: column;
