@@ -3,8 +3,8 @@
 //Hola soy un comentario de una sola linea
 
 /*
-Hola soy un comentario
-multi linea
+  Hola soy un comentario
+  multi linea
 */
 
 //Variables en Javascript
@@ -145,6 +145,6 @@ Crear un programa que pida ingresar una cantidad en minutos mediante un y muestr
 
 //1 año perruno = 7 años humanos
 
-let edadDePerro = prompt("¿Cuantos años tiene tu perro?");
-let edadConvertida = edadDePerro * 7;
-console.log(`Tu perro tiene ${edadConvertida} años humanos`);
+// let edadDePerro = prompt("¿Cuantos años tiene tu perro?");
+// let edadConvertida = edadDePerro * 7;
+// console.log(`Tu perro tiene ${edadConvertida} años humanos`);
