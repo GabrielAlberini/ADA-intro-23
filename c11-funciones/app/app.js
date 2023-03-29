@@ -114,7 +114,7 @@ const sumar = (numero1, numero2) => {
   return numero1 + numero2;
 };
 
-console.log(sumar(1, 2));
+sumar(1, 2);
 
 // let resultado = sumar(1, 2);
 // console.log(resultado);
