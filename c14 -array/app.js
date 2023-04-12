@@ -11,14 +11,15 @@
 // puedesEntrarAlBoliche(17, true);
 
 //Operadores de comparación
+// = => asignando (no es un operador de comparación)
 // == => valor
 // === => tipo y valor
 
 // == comparador de igualdad
-console.log(4 == "4");
+console.log(4 == "4"); // true
 
 // === comparador de igualdad estricta
-console.log(4 === "4");
+console.log(4 === "4"); // false
 
 //Bucles:
 
@@ -47,6 +48,7 @@ objetos
 
 //sintaxis        0       1        2
 // let colores = ["rojo", "azul", "amarillo"];
+//colores[1]
 
 // console.log(colores);
 

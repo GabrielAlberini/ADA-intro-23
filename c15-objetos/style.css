@@ -1,0 +1,46 @@
+/*Reseteo*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-color: violet;
+  padding: 40px;
+}
+
+main {
+  min-height: 60vh;
+  padding: 20px;
+}
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.caja-producto {
+  background-color: teal;
+  width: 230px;
+  padding: 20px;
+}
+
+.caja-producto img {
+  width: 100%;
+}
+
+.caja-producto p {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+footer {
+  background-color: tomato;
+  padding: 40px;
+}
